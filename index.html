@@ -12,6 +12,8 @@
 <!--fim-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <script src="menu.js" defer></script>
     <title>Portifolio</title>
 </head>
 <body>
@@ -19,7 +21,7 @@
         <div class = "interface">
             <div class="logo">
                 <a href="#">
-                    <img src="images/LOGO2.jpg" width="250" height="180 alt="Logo Lacerda">
+                    <img src="images/LOGO2.jpg" width="220" height="150 alt="Logo Lacerda">
                 </a>
             </div>
             <nav class="menu-desktop">
@@ -37,7 +39,26 @@
                 </a>
 
             </div>
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+           <div class="menu-mobile" id="menu-mobile">
 
+                <div class="btn-fechar" id="fech-menu">
+                    <i class="bi bi-x-square"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</li>
+                        <li><a href="#">Especialidades</li>
+                        <li><a href="#">Sobre </li>
+                        <li><a href="#">Projetos</li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+    
+                </nav>
+           </div>
+           <div class="overlay-menu"></div>
         </div>
     </header>
 
@@ -160,6 +181,26 @@
         </section>
 
     </main>
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/LOGO2.jpg" width="220" height="150 alt="Logo lacerda2">
+                    </div>
+                    <div class="btn-social">
+                        <a href="https://github.com/Lacerdainfo"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/%C3%A9dipo-lacerda-406a5b219/"><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href="https://www.instagram.com/edipo.lacerda/"><button><i class="bi bi-instagram"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="line-footer borda">
+                    <p><i class="bi bi-envelope-at-fill"></i> <a href="mailto:developerlacerda@gmail.com">developerlacerda@gmail.com</a></p>
+                    
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
