@@ -1,0 +1,189 @@
+/*Estilo Geral*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+    height:100vh;
+}
+.flex{
+    display: flex;
+
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgb(184, 145, 17);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+ }
+  button:hover{
+    box-shadow: 0px 0px 8px #eeee02;
+    transform: scale(1.05);
+    
+    
+ }
+
+ h2.Titulo{
+    color:#fff;
+    font-size: 38px;
+    text-align: center;
+
+ }
+ h2.Titulo span{
+    color: rgb(184, 145, 17);
+ }
+/* Estido do Cabecalho*/
+    header{
+        padding: 40px 4%;
+ }
+ header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ header a{
+    color: #4d4b4b;
+    text-decoration: none;
+    display: inline-block;
+    transition: 2s;
+ }
+ header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+ }
+ header nav ul{
+    list-style-type: none;
+ }
+ header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+ }
+ 
+ 
+ /*ESTILO DO TOPO DO SITE*/
+
+section.topo-do-site{
+    padding:40px 4%
+}
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.topo-do-site h1{
+    font-size: 42px ;
+    color: #fff;
+    line-height: 40px;
+
+    
+}
+.topo-do-site .txt-topo-site h1 span{
+    color: rgb(184, 145, 17);;
+}
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    line-height: 20px;
+    margin: 50px 0;
+}
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+    border-radius: 30px;
+}
+@keyframes flutuar{
+    0%{
+        top:0;
+    }
+    100%{
+        top:30px;
+    }
+}
+/*Estilo Especialidades*/
+section.Especialidades{
+padding: 40px 4%;
+}
+
+section.Especialidades .flex{
+    gap: 60px;
+
+}
+.Especialidades .Especialidades-box{
+    color: #fff;
+    padding: 40px;
+ 
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: 0.5s;
+  
+}
+.Especialidades .Especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px hsla(0, 0%, 100%, 0.486);
+
+     
+}
+.Especialidades .Especialidades-box i{
+    color: rgb(184, 145, 17);
+    font-size: 70px;
+}
+.Especialidades .Especialidades-box h3{
+    font-size: 28px;
+    margin: 15px  0 ;
+}
+
+/*Estilo Sobre*/
+section.Sobre{
+    padding: 80px 4%;
+}
+.Sobre .img-sobre img{
+    border-radius: 30px;
+}
+section.Sobre .flex{
+    align-items: center;
+    gap: 60px;
+
+}
+
+.Sobre .txt-sobre{
+    color: #fff;
+}
+.Sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px ;
+    margin-bottom: 30PX;
+}
+
+.Sobre .txt-sobre h2 span{
+    display: block;
+    color:  rgb(184, 145, 17);
+
+}
+
+.Sobre .txt-sobre p {
+    margin: 10px 0;
+    text-align: justify;
+}
+.Sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(184, 145, 17);
+    font-size: 30px;
+    cursor: pointer;
+    margin:0 8px
+
+
+}
